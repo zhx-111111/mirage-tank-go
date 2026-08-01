@@ -24,3 +24,11 @@ python3 MirageTankGo.py -o output.png black.jpg white.jpg
 - Pillow
 - numpy
 - docopt
+
+## 原理
+
+幻影坦克利用人眼对亮度敏感但对色彩相对不敏感的特性，通过像素级的亮度混合，使同一张图片在黑色背景和白色背景下分别显示不同的图像。
+
+## 上游项目
+
+本技能封装自 [Aloxaf/MirageTankGo](https://github.com/Aloxaf/MirageTankGo)
